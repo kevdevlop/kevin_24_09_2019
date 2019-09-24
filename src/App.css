@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  size: portrait;
 }
 
 .App-logo {
@@ -8,6 +9,7 @@
 
 .App-header {
   background-color: #282c34;
+  opacity: 0.5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,6 +17,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.image_animated{
+  animation: test;
+  animation-duration: 4s;
+}
+
+@keyframes test{
+  from{ transform: rotate(0deg)}
+  to{ transform: rotate(0deg)}
 }
 
 .App-link {

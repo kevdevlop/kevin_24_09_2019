@@ -18,6 +18,9 @@ function App() {
         >
           Learn React
         </a>*/}
+        <div className="image_animated">
+          <img src="image_test.jpg"/>
+        </div>
         <AjaxRequest/>
       </header>
     </div>
