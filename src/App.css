@@ -8,7 +8,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   opacity: 0.5;
   min-height: 100vh;
   display: flex;
@@ -28,7 +27,24 @@
   from{ transform: rotate(0deg)}
   to{ transform: rotate(0deg)}
 }
+ /* including media queries*/
 
+ @media (min-width: 1080px){
+  .App-header{
+    background-color: black;
+  }
+}
+@media (max-width: 1080px) and (min-width: 800px){
+  .App-header{
+    background-color: red;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+  .App-header{
+    background-color: #09d3ac;
+  }
+}
 .App-link {
   color: #09d3ac;
 }
