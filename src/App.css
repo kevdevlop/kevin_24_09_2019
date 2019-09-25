@@ -19,13 +19,12 @@
 }
 
 .image_animated{
-  animation: test;
-  animation-duration: 4s;
+  -webkit-animation:test 1s linear infinite;
 }
 
 @keyframes test{
-  from{ transform: rotate(0deg)}
-  to{ transform: rotate(0deg)}
+  from { transform: rotate(0deg)}
+  to{ transform: rotate(90deg)}
 }
  /* including media queries*/
 
